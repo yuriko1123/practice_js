@@ -25,4 +25,4 @@ while (j <= 30) {
     console.log(j);
   }
   j = j + 1
-  }
+}
