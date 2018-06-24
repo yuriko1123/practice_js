@@ -1,11 +1,11 @@
 // for文FizzBuzz
 for (var i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
-      console.log('FizzBuzz');
+    console.log('FizzBuzz');
   } else if (i % 5 === 0) {
-      console.log('Buzz');
+    console.log('Buzz');
   } else if (i % 3 === 0) {
-      console.log('Fizz'); 
+    console.log('Fizz'); 
   } else {
     console.log(i);
   }
@@ -22,7 +22,7 @@ while (j <= 30) {
   } else if (j % 3 === 0) {
     console.log('Fizz');
   } else {
-  console.log(j);
+    console.log(j);
   }
   j = j + 1
   }
