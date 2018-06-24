@@ -1,28 +1,28 @@
 // for文FizzBuzz
-for(var i = 1; i <= 100; i++){
-  if(i % 3 === 0 && i % 5 === 0){
+for (var i = 1; i <= 100; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
       console.log('FizzBuzz');
-  } else if(i % 5 === 0){
+  } else if (i % 5 === 0) {
       console.log('Buzz');
-  } else if(i % 3 === 0){
+  } else if (i % 3 === 0) {
       console.log('Fizz'); 
   } else {
-    console.log(i)
+    console.log(i);
   }
 }  
   
   
 // while文fizzbuzz
-var i = 1;
-while (i <= 30) {
-  if (i % 3 === 0 && i % 5 === 0) {
+var j = 1;
+while (j <= 30) {
+  if (j % 3 === 0 && j % 5 === 0) {
     console.log('FizzBuzz');
-  } else if(i % 5 === 0){
+  } else if (j % 5 === 0) {
     console.log('Buzz');
-  } else if(i % 3 === 0){
+  } else if (j % 3 === 0) {
     console.log('Fizz');
   } else {
-  console.log(i);
+  console.log(j);
   }
-  i = i + 1
+  j = j + 1
   }
